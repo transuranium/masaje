@@ -1,235 +1,118 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Masaje al vacío</title>
-    <link rel="stylesheet" href="./css/main.css" />
-  </head>
-  <body>
-    <nav class="nav">
-      <div class="container">
-        <div class="nav-row">
-          <a href="./index.html" class="logo"
-            ><strong>Masaje </strong>al vacío</a
-          >
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Masaje Yoni – Igor Mexicov</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #111;
+      color: #e8d3a7;
+      line-height: 1.6;
+      padding: 40px 20px;
+    }
 
-          <button class="dark-mode-btn">
-            <img
-              src="./img/icons/sun.svg"
-              alt="Light mode"
-              class="dark-mode-btn__icon"
-            />
-            <img
-              src="./img/icons/moon.svg"
-              alt="Dark mode"
-              class="dark-mode-btn__icon"
-            />
-          </button>
+    .container {
+      max-width: 700px;
+      margin: 0 auto;
+    }
 
-          <ul class="nav-list">
-            <li class="nav-list__item">
-              <a href="./skills.html" class="nav-list__link"
-                >Indicaciones y contraindicaciones</a
-              >
-            </li>
-            <li class="nav-list__item">
-              <a href="./contacts.html" class="nav-list__link"
-                >Antes del masaje
-              </a>
-            </li>
-            <li class="nav-list__item">
-              <a
-                href="después.html"
-                class="nav-list__link"
-                >Después del masaje
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    h1, h2 {
+      text-align: center;
+      color: #f1d7a1;
+    }
 
-    <header class="header">
-      <div class="header__wrapper">
-        <h1 class="header__title">
-          <strong>Hola mi nombre es <em>Igor</em></strong
-          ><br />
-          Soy masajista profesional
-        </h1>
-        <div class="header__text">
-          <p>
-            Busqué durante mucho tiempo, estudié varias técnicas en todo el
-            mundo... Todas tienen su propio encanto y beneficios. Para mí, el
-            principio básico es la curación y rejuvenecimiento de TODOS los
-            tejidos y estructuras del cuerpo humano. El masaje al vacío se
-            ajusta a esta definición.
-          </p>
-        </div>
-        <a href="#ventajas" class="btn">Ventajas</a>
-      </div>
-    </header>
-    <!--
-    <main class="section">
-      <div class="container">
-        <h2 class="title-1" id="ventajas">El mejor masaje del mundo</h2>
-        <ul class="projects">
-          <li class="project">
-            <a href="./project-page.html">
-              <img
-                src="./img/projects/01.jpg"
-                alt="Project img"
-                class="project__img"
-              />
-              <h3 class="project__title">Gaming streaming portal</h3>
-            </a>
-          </li>
-          <li class="project">
-            <a href="./project-page.html">
-              <img
-                src="./img/projects/02.jpg"
-                alt="Project img"
-                class="project__img"
-              />
-              <h3 class="project__title">Video service</h3>
-            </a>
-          </li>
-          <li class="project">
-            <a href="./project-page.html">
-              <img
-                src="./img/projects/03.jpg"
-                alt="Project img"
-                class="project__img"
-              />
-              <h3 class="project__title">Video portal</h3>
-            </a>
-          </li>
+    h1 {
+      font-size: 28px;
+      margin-bottom: 0;
+    }
 
-          <li class="project">
-            <img
-              src="./img/projects/04.jpg"
-              alt="Project img"
-              class="project__img"
-            />
-            <h3 class="project__title">Dating app</h3>
-          </li>
-          <li class="project">
-            <img
-              src="./img/projects/05.jpg"
-              alt="Project img"
-              class="project__img"
-            />
-            <h3 class="project__title">Landing</h3>
-          </li>
-          <li class="project">
-            <img
-              src="./img/projects/06.jpg"
-              alt="Project img"
-              class="project__img"
-            />
-            <h3 class="project__title">Gaming community</h3>
-          </li>
-        </ul>
-      </div>
-    </main>
--->
-    <main class="section">
-      <div class="container">
-        <h2 class="title-1" id="ventajas">El mejor masaje del mundo</h2>
-        <ul class="projects">
-          <li class="project">
-            <h3 class="project__title">Impacto profundo en los tejidos</h3>
-            <p class="project__description">
-              El masaje de vacío puede penetrar más profundamente en los tejidos
-              en comparación con los métodos de masaje tradicionales. Esto
-              permite eliminar espasmos musculares de manera más efectiva,
-              mejorar la circulación sanguínea y estimular el sistema linfático
-            </p>
-          </li>
-          <li class="project">
-            <h3 class="project__title">
-              Mejora de la circulación sanguínea y el drenaje linfático
-            </h3>
-            <p class="project__description">
-              El vacío crea una presión negativa que ayuda a aumentar el flujo
-              sanguíneo en la zona masajeada y mejora el drenaje linfático. Esto
-              ayuda a eliminar toxinas del cuerpo y acelera los procesos de
-              regeneración.
-            </p>
-          </li>
-          <li class="project">
-            <h3 class="project__title">Reducción de la celulitis</h3>
-            <p class="project__description">
-              El masaje de vacío se utiliza a menudo en programas
-              anticelulíticos. Ayuda a descomponer los depósitos de grasa y
-              suavizar la superficie de la piel, lo que lo convierte en un
-              método eficaz para combatir la celulitis
-            </p>
-          </li>
-          <li class="project">
-            <h3 class="project__title">Seguridad y ausencia de dolor</h3>
-            <p class="project__description">
-              A diferencia de algunos tipos de masaje profundo, el masaje de
-              vacío es menos doloroso y menos traumático para los tejidos. Esto
-              lo hace adecuado para personas con piel sensible o bajo umbral del
-              dolor
-            </p>
-          </li>
-          <li class="project">
-            <h3 class="project__title">Versatilidad de aplicación</h3>
-            <p class="project__description">
-              El masaje de vacío se puede utilizar en diferentes áreas del
-              cuerpo y para diversos fines, ya sea rejuvenecimiento facial,
-              alivio de la tensión muscular o mejora del estado general del
-              cuerpo
-            </p>
-          </li>
-          <li class="project">
-            <h3 class="project__title">
-              Recuperación acelerada después de lesiones
-            </h3>
-            <p class="project__description">
-              Gracias a su impacto profundo y la mejora de la circulación
-              sanguínea, el masaje de vacío ayuda a acelerar el proceso de
-              recuperación después de lesiones y cargas físicas
-            </p>
-          </li>
-        </ul>
-      </div>
-    </main>
+    h2 {
+      font-size: 20px;
+      margin-top: 0;
+      margin-bottom: 30px;
+    }
 
-    <footer class="footer">
-      <div class="container">
-        <div class="footer__wrapper">
-          <!--  <ul class="social">
-            <li class="social__item">
-              <a href="#!"><img src="./img/icons/vk.svg" alt="Link" /></a>
-            </li>
-            <li class="social__item">
-              <a href="#!"
-                ><img src="./img/icons/instagram.svg" alt="Link"
-              /></a>
-            </li>
-            <li class="social__item">
-              <a href="#!"><img src="./img/icons/twitter.svg" alt="Link" /></a>
-            </li>
-            <li class="social__item">
-              <a href="#!"><img src="./img/icons/gitHub.svg" alt="Link" /></a>
-            </li>
-            <li class="social__item">
-              <a href="#!"><img src="./img/icons/linkedIn.svg" alt="Link" /></a>
-            </li>
-          </ul>
-          <div class="copyright">
-            <p>© 2024 igor-mexicov.ru</p>
-          </div>
-          
-        </div>
-      </div>
-    </footer>
--->
-    </div>
-    <script src="./js/main.js"></script>
-  </body>
-</html>
+    ul {
+      padding-left: 20px;
+      margin-bottom: 30px;
+    }
+
+    .table-container {
+      overflow-x: auto;
+      margin-bottom: 30px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: #1b1b1b;
+    }
+
+    th, td {
+      border: 1px solid #444;
+      padding: 10px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #222;
+      color: #f1d7a1;
+    }
+
+    .footer {
+      font-size: 16px;
+      margin-top: 30px;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>LISTA DE PRECIOS – MASAJE YONI</h1>
+    <h2>por IGOR MEXICOV</h2>
+
+    <ul>
+      <li>Relajación profunda, despertar del cuerpo y las emociones, en un ambiente seguro y privado</li>
+      <li>Enfoque corporal con formación en psicología – recibo mi título este año, por eso busco un enfoque único para cada persona</li>
+      <li>Reputación comprobada en Facebook – opiniones de parejas con 15 años de experiencia en el ambiente swinger</li>
+    </ul>
+
+    <h2>🔥 PAQUETES:</h2>
+
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Servicio</th>
+            <th>Duración</th>
+            <th>Precio</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Sesión individual (solo mujer)</td>
+            <td>90–120 min</td>
+            <td>2000 MXN</td>
+          </tr>
+          <tr>
+            <td>Primera sesión promocional (pareja)</td>
+            <td>90–120 min</td>
+            <td>1500 MXN</td>
+          </tr>
+          <tr>
+            <td>Sesión regular para parejas</td>
+            <td>90–120 min</td>
+            <td>2000–2200 MXN</td>
+          </tr>
+          <tr>
+            <td>Con desplazamiento</td>
+            <td>—</td>
+            <td>+300 MXN</td>
+          </tr>
+        </tbody>
+      </table>
+    </d

@@ -154,3 +154,10 @@ button[type="submit"]:hover {
 .button-link:hover {
   background-color: #dabf85;
 }
+
+.promo-aviso {
+  font-size: 18px;
+  color: #ffcc66;
+  margin-bottom: 20px;
+  font-weight: bold;
+}

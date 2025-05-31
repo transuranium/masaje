@@ -162,6 +162,12 @@ button[type="submit"]:hover {
   font-weight: bold;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
+
 .menu {
   list-style: none;
   display: flex;
@@ -187,8 +193,4 @@ button[type="submit"]:hover {
 
 .menu a:hover {
   background-color: #333;
-}
-
-html {
-  scroll-behavior: smooth;
 }

@@ -162,6 +162,33 @@ button[type="submit"]:hover {
   font-weight: bold;
 }
 
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px 0;
+  background-color: #222;
+  margin: 20px 0;
+  gap: 15px;
+}
+
+.menu li {
+  margin: 0;
+}
+
+.menu a {
+  color: #f1d7a1;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+.menu a:hover {
+  background-color: #333;
+}
+
 html {
   scroll-behavior: smooth;
 }
